@@ -1,0 +1,9 @@
+{
+  "language": "python",
+  "installCmd": "pip install -e \".[test]\"",
+  "testCmd": "pytest -q",
+  "singleTestCmd": "pytest -q {test}",
+  "baselineFailures": [],
+  "expectedDurationSec": 3,
+  "autoMerge": true
+}
