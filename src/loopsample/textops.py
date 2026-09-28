@@ -12,4 +12,4 @@ def truncate(text: str, limit: int) -> str:
     """
     if len(text) <= limit:
         return text
-    return text[:limit] + ELLIPSIS
+    return text[:limit - 1] + ELLIPSIS
