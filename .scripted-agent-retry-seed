@@ -1,0 +1,4 @@
+Scenario 4 seed (WI-17 T3): while this file is on main, the scripted
+agent lands a wrong patch on its first fix attempt, so a
+--max-attempts run must genuinely retry. The fixture reset converges
+this file away.
