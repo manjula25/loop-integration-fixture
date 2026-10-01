@@ -1,7 +1,7 @@
 {
   "language": "python",
   "installCmd": "pip install -e \".[test]\"",
-  "testCmd": "echo baseline-green",
+  "testCmd": "pytest -q",
   "singleTestCmd": "pytest -q {test}",
   "baselineFailures": [],
   "expectedDurationSec": 3,
