@@ -18,3 +18,8 @@ def truncate(text: str, limit: int) -> str:
 def shout(text: str) -> str:
     """Return *text* uppercased with a trailing exclamation mark."""
     return text.upper() + "!"
+
+
+def shout_all(words):
+    """Shout every word in *words*, preserving order."""
+    return [shout(w) for w in words]
